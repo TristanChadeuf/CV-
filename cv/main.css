@@ -11,15 +11,15 @@
   }
   
   /* début page index */
-  .bodyT {
+  .body{
     font-family: 'poppins', sans-sherif;
     width: 100%;
   }
   
-  .navBarT {
+  .navBar {
     width: 100%;
-    height: 3vh;
-    font-size: 1.5rem;
+    height: 4vh;
+    font-size: 2.5rem;
     padding: 1%;
     background-color: var(--primary);
     color: white;
@@ -27,18 +27,18 @@
   
   }
   
-  .menuListeT a {
+  .menuListe a {
     color: white
   }
   
-  .menuListeT {
+  .menuListe {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
   
   }
-  .menuListeT {
+  .menuListe {
     list-style: none;
   }
   #photoProfilT {
@@ -48,14 +48,14 @@
     padding: 2%;
   }
   .h1T {
-    font-size: 5rem;
+    font-size: 4rem;
     background-color: var(--secondary);
     border-radius: 20px;
     padding: 5px;
     box-shadow: 15px 15px var(--tertiaire);
     margin-top: 20%;
   }
-  .header-T {
+  .header{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -71,11 +71,11 @@
   .space-arround a{
     color: black;
   }
-  .iconeT {
+  .icone {
     width: 5%;
   }
   /* début résumé */
-  .resumeT {
+  .resume {
     background-image: url(./Img/Img-Tristan/photo1.png);
     background-size: cover;
     background-position: center;
@@ -85,7 +85,7 @@
     flex-direction: column;
   }
   
-  .resumeT p {
+  .resume p {
     background-color: rgba(255, 255, 255, 0.461);
     font-size: 2rem;
     padding: 1%;
@@ -100,16 +100,16 @@
   }
   
   /* debut carriere */
-  .bloccarriereT {
+  .bloccarriere {
     background-color: white;
     padding: 10vh ;
   }
-  .bloccarriereT p{
+  .bloccarriere p{
     font-size: 2rem;
   
   }
   
-  .bloccarriereT h3 {
+  .bloccarriere h3 {
     text-align: center;
     margin: 5vh 0 5vh 0;
   }
@@ -169,7 +169,7 @@
   
   /* début compétences */
   
-  .competencesT {
+  .competences {
     width: 100%;
     background-image: url(./Img/Img-Tristan/photo4.png);
     background-size: cover;
@@ -182,14 +182,14 @@
     
   }
   
-  .tableT {
+  .table {
     border-collapse: collapse;
     margin: auto;
     background-color: white;
   }
   
   /* debut footer */
-  .footerT {
+  .footer {
     display: flex;
     justify-content: space-around;
     margin: 20px 20px 20px 20px;
@@ -198,7 +198,7 @@
   }
   
   /* commencement Page hobbyT */
-  .menuHobbyT {
+  .menuHobby {
     font-size: 2rem;
     padding: 40px;
     background-color: var(--primary);
@@ -209,19 +209,19 @@
     text-align: center
   }
   
-  .hobbyT h2 {
+  .hobby h2 {
     text-align: center;
     margin: 0px 0px 60px 0px;
   }
   
-  .hobbyT p {
+  .hobby p {
     text-align: center;
     font-size: 2rem;
     background-color: rgba(245, 245, 220, 0.567);
   
   }
   
-  .mainhobbyT {
+  .mainhobby {
     background-image: url(./Img/Img-Tristan/photo5.png);
     background-size: cover;
     background-position: center;
@@ -237,7 +237,7 @@
   
   /* commencement page contact */
   
-  .ficheContactT {
+  .ficheContact {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -247,13 +247,13 @@
     background-image: no-repeat;
     background-size: cover;
   }
-  .mainContactT {
+  .mainContact {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .formT {
+  .form {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -264,7 +264,7 @@
     padding-left: 0px;
   }
   
-  .formT button {
+  .form button {
     height: 40px;
     width: 200px;
     background-color: rgb(245, 245, 220);
@@ -281,12 +281,12 @@
     flex-direction: column;
   }
   
-  .texteT {
+  .texte {
     height: 30px;
     width: 200px;
     font-size: 1rem;
   }
-  .formT label{
+  .form label{
     font-size: 1.2rem;
   }
   
@@ -306,10 +306,10 @@
     font-size: 1rem;
   }
   
-  .iframeT {
+  .iframe {
     border: none;
   }
-  .footerT{
+  .footer{
   background-color: white;
   }
   
@@ -317,13 +317,13 @@
     height: 50vw;
   }
   @media only screen and (min-width: 320px) and (max-width: 600px){
-  .navBarT{
+  .navBar{
     display:none
   }
   .FuséeLogoRetour{
     display: none;
   }
-  #photoProfilT{
+  #photoProfil{
       border-radius: 50px;
       margin: 1%;
       box-shadow: 2px 2px var(--primary);
@@ -334,14 +334,14 @@
         box-shadow: 3px 3px var(--primary);
         padding: 2%;
   }
-  .header-T {
+  .header {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
  
   }
-  .infoT{
+  .info{
     margin-left: 0px;
   }
   .h1T {
@@ -363,7 +363,7 @@
   .space-arround p{
     font-size: 0.8rem;
   }
-  .iconeT {
+  .icone {
     width: 20px;
   }
   .Burger-PhotoT{
@@ -381,7 +381,7 @@
     box-shadow: 5px 5px #673F69;
     margin: 5% 0px 5% 0px;
   }
-  .resumeT {
+  .resume {
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -392,17 +392,17 @@
     object-fit: cover;
     padding: 2%;
   }
-  .resumeT p{
+  .resume p{
     font-size: 0.8rem;
   }
-  .bloccarriereT {
+  .bloccarriere {
     padding: 3vh ;
   }
-  .bloccarriereT p{
+  .bloccarriere p{
     font-size: 2rem;
   }
   
-  .bloccarriereT h3 {
+  .bloccarriere h3 {
     text-align: center;
     margin: 5vh 0 5vh 0;
   }
@@ -441,7 +441,7 @@
     text-align: center;
     background-color: rgba(255, 255, 255, 0.472);
   }
-  .competencesT {
+  .competences {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -458,10 +458,10 @@
     bottom: 0;
     width: 3rem;
   }
-  .competencesT{
+  .competences{
     margin-top: -1px;
   }
-  .menuHobbyT {
+  .menuHobby {
     font-size: 2rem;
     padding: 40px;
     background-color: var(--primary);
@@ -472,12 +472,12 @@
     text-align: center
   }
   
-  .hobbyT h2 {
+  .hobby h2 {
     text-align: center;
     margin: 0px 0px 60px 0px;
   }
   
-  .hobbyT p {
+  .hobby p {
     text-align: center;
     font-size: 1rem;
     background-color: rgba(245, 245, 220, 0.567);
@@ -485,7 +485,7 @@
   
   }
   
-  .mainhobbyT {
+  .mainhobby {
     width: 100%;
     height: 100vh;
    padding : 5%; 
@@ -493,13 +493,13 @@
   }
   
   @media only screen and (min-width: 601px) and (max-width: 1024px){
-    .navBarT{
+    .navBar{
       display:none
     }
     .FuséeLogoRetour img {
       width: 5rem;
     }
-    #photoProfilT{
+    #photoProfil{
         border-radius: 50px;
         margin: 1%;
         box-shadow: 2px 2px var(--primary);
@@ -510,14 +510,14 @@
           box-shadow: 3px 3px var(--primary);
           padding: 2%;
     }
-    .header-T {
+    .header{
       width: 100%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       padding: 1vh;
     }
-    .infoT{
+    .info{
       margin-left: 0px;
     }
     .h1T {
@@ -539,10 +539,10 @@
     .space-arround p{
       font-size: 0.8rem;
     }
-    .iconeT {
+    .icone {
       width: 20px;
     }
-    .Burger-PhotoT{
+    .Burger-Photo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -557,7 +557,7 @@
       box-shadow: 5px 5px #673F69;
       margin: 5% 0px 5% 0px;
     }
-    .resumeT {
+    .resume {
       height: 70vh;
       display: flex;
       flex-direction: column;
@@ -568,17 +568,17 @@
       object-fit: cover;
       padding: 2%;
     }
-    .resumeT p{
+    .resume p{
       font-size: 0.8rem;
     }
-    .bloccarriereT {
+    .bloccarriere {
       padding: 3vh ;
     }
-    .bloccarriereT p{
+    .bloccarriere p{
       font-size: 2rem;
     }
     
-    .bloccarriereT h3 {
+    .bloccarriere h3 {
       text-align: center;
       margin: 5vh 0 5vh 0;
     }
@@ -617,7 +617,7 @@
       text-align: center;
       background-color: rgba(255, 255, 255, 0.472);
     }
-    .competencesT {
+    .competences {
       width: 100%;
       height: 70vh;
       display: flex;
@@ -634,35 +634,35 @@
       bottom: 0;
       width: 3rem;
     }
-    .competencesT{
+    .competences{
       margin-top: -1px;
     }
-    .iframeT {
+    .iframe {
       border: none;
     }
    
-    .hobbyT h2 {
+    .hobby h2 {
       text-align: center;
       margin: 20px 0px 60px 0px;
       font-size: 3rem;
     }
     
-    .hobbyT p {
+    .hobby p {
       text-align: center;
       font-size: 1.5rem;
       background-color: rgba(245, 245, 220, 0.567);
       margin-bottom: 20vh;
     
     }
-    .mainhobbyT {
+    .mainhobby {
       width: 100%;
       height: 120vh;
      padding : 5%; 
     }
-    .footerT img{
+    .footer img{
       width: 3rem;
     }
-    .footerT p{
+    .footer p{
       font-size: 2rem;
     }
   }
