@@ -37,6 +37,16 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+#imageProjet {
+    position: relative;
+    left: 50%;
+    top: -100px;
+    width: 40%;
+
+}
+#github{
+    font-size: x-large;
+}
 body {
     margin: 0
 }
@@ -277,7 +287,6 @@ body {
 }
 
 body {
-  
     background-color: #0c0c0c;
     font-size: 14px;
     line-height: 1.6;
@@ -288,6 +297,10 @@ body {
 }
 
 .l-viewport {
+    background-image: url("../img/luxa.org-opacity-changed-coding-1841550_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -1260,15 +1273,15 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/background-5077810_1280.png")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+    background-image: url("../img/background-1702930_1920.jpg")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/background-1789175_1920.png")
 }
 
 .about--options>a:hover h3 {
@@ -1363,7 +1376,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/contact-visual.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1405,6 +1417,8 @@ body {
 }
 
 .contact--lockup .modal {
+    font-size:x-large;
+    width: 100vh;
     padding: 45px 45px;
     text-align: center;
     background-color: #0c0c0c;
@@ -1431,7 +1445,7 @@ body {
 }
 
 .contact--lockup .modal--options>li {
-    width: 130px;
+    width: 100%;
     margin: 0 auto 25px auto
 }
 
