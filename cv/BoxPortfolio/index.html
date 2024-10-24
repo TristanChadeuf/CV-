@@ -175,7 +175,8 @@
             <div class="hire">
               <h2>Comment êtes-vous tombé ici ?</h2>
             
-              <form class="work-request">
+              <form action="https://api.web3forms.com/submit"  method="POST" class="work-request">
+                <input type="hidden" name="access_key" value="64c3dc7b-0bca-4e7f-a0b8-aa9bde2baf16">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -223,17 +224,17 @@
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" name="First Name" type="text" spellcheck="false">
                     <label for="name">Nom</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email"  name="Email"  type="email" spellcheck="false">
                     <label for="email">Email</label>
                   </div>
                 </div>
                 <div class="work-request--information">
                   <div class="information-name1">
-                  <input id="name" type="text" spellcheck="false">
+                  <input id="name" name="Message"      type="text" spellcheck="false">
                   <label for="text">Message</label>
                 </div>
                 </div>
