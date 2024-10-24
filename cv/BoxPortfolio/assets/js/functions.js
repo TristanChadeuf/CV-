@@ -34,6 +34,18 @@ $( document ).ready(function() {
 
   });
 
+  const myXp= document.getElementById("myXp");
+  const myProjet= document.getElementById("myProjet");
+  const myContact= document.getElementById("myContact");
+
+myXp.scrollTo({
+  top:100,
+  behavior: "smooth"
+});
+
+myProjet.scrollTo();
+myContact.scrollTo();
+
   $('.side-nav li, .outer-nav li').click(function(){
 
     if (!($(this).hasClass('is-active'))) {
