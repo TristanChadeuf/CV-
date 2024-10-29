@@ -258,13 +258,7 @@ th {
     padding: 0
 }
 
-::-moz-selection {
-    background: #FFF498
-}
 
-::-moz-selection {
-    background: #FFF498
-}
 
 img::-moz-selection {
     background: transparent
