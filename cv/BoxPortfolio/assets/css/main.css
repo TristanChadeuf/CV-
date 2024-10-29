@@ -262,10 +262,6 @@ th {
     background: #FFF498
 }
 
-::selection {
-    background: #FFF498
-}
-
 ::-moz-selection {
     background: #FFF498
 }
@@ -280,10 +276,6 @@ img::selection {
 
 img::-moz-selection {
     background: transparent
-}
-
-body {
-    -webkit-tap-highlight-color: #FFF498
 }
 
 body {
